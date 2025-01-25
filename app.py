@@ -16,7 +16,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 #DOWLOADING THE NLTK RESOURCES
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 nltk.download('stopwords')
 nltk.download('vader_lexicon')
