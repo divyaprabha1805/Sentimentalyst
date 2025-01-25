@@ -135,7 +135,7 @@ def stem_text(tokens):
     return stemmed_tokens
 
 import nltk
-nltk.download('punkt_tab')
+nltk.download('punkt')
 # Download the required NLTK resource
 #nltk.download('punkt')
 
