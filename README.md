@@ -8,7 +8,6 @@ Developed a sentiment analysis project to assess the effectiveness and public pe
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
