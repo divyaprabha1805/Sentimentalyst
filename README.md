@@ -1,84 +1,65 @@
-# Sentiment_Analysis
-Developed a sentiment analysis project to assess the effectiveness and public perception of medications based on drug reviews. Utilized Python with NLTK for preprocessing and Bag of Words representation. Employed classification algorithms including KNN, Naive Bayes, SVM, and Logistic Regression to classify sentiments. Integrated LIME and SHAP for model interpretability, providing valuable insights into drug efficacy. Additionally, implemented a BERT model for improved performance and used Streamlit to build an interactive UI for better user experience.
+# **Sentimentalyst - Sentiment Analysis of Drug Reviews**  
 
-## Table of Contents
+## **Overview**  
+Sentimentalyst is an AI-powered **sentiment analysis** tool designed to analyze drug reviews and classify them into **positive, neutral, or negative sentiments**. The model helps in understanding patient experiences and improving healthcare decisions.  
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+##Deployment link:
+https://sentimentalyst.streamlit.app/
 
-## Features
+## **Features**  
+- 🏥 **Analyzes drug reviews for sentiment classification**  
+- 📊 **Employs multiple machine learning algorithms (KNN, Naive Bayes, SVM, Logistic Regression)**  
+- 🧹 **Robust text preprocessing using NLTK (tokenization, stopword removal, stemming, lemmatization)**  
+- 📈 **Visualizes insights with graphs and charts**  
+- ⚡ **Integrates LIME for explainability**  
 
-- Sentiment analysis of drug reviews
-- Robust text preprocessing using NLTK
-- Bag of Words (BoW) representation
-- Classification algorithms:
-  - K-Nearest Neighbors (KNN)
-  - Naive Bayes
-  - Support Vector Machines (SVM) with various kernel functions
-  - Logistic Regression
-- Model interpretability with LIME and SHAP
-- BERT model for enhanced performance
-- Interactive user interface built with Streamlit
+## **Installation**  
 
-## Technologies Used
-
-- Python
-- NLTK
-- Scikit-learn
-- Streamlit
-- LIME and SHAP for interpretability
-- BERT for advanced sentiment analysis
-
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository to your local machine:
-   ```bash
+1. Clone the repository:  
+   ```sh
    git clone https://github.com/divyaprabha1805/Sentimentalyst.git
+   ```  
+2. Navigate to the project directory:  
+   ```sh
+   cd Sentimentalyst
+   ```  
+3. Create a virtual environment (optional but recommended):  
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   ```  
+4. Install dependencies:  
+   ```sh
+   pip install -r requirements.txt
+   ```  
+5. Run the application:  
+   ```sh
+   python app.py
+   ```  
 
-    Navigate to the project directory:
-    bash
+## **Technologies Used**  
+- **Programming Language:** Python  
+- **Libraries:** pandas, numpy, nltk, scikit-learn, matplotlib, seaborn, LIME  
+- **Machine Learning Models:** K-Nearest Neighbors, Naive Bayes, Support Vector Machines, Logistic Regression  
 
-cd Sentimentalyst
+## **Dataset**  
+- **Source:** Kaggle / Public Drug Review Dataset  
+- **Format:** CSV  
+- **Preprocessing:** Tokenization, stopword removal, stemming, lemmatization  
 
-Install the required dependencies:
-bash
+## **Contribution**  
+1. Fork the repository.  
+2. Create a feature branch (`git checkout -b feature-name`).  
+3. Commit your changes (`git commit -m "Added new feature"`).  
+4. Push to your branch (`git push origin feature-name`).  
+5. Open a Pull Request.  
 
-    pip install -r requirements.txt
+## **License**  
+This project is licensed under the **MIT License**.  
 
-Usage
+## **Contact**  
+For any queries, contact **[Divya Prabha](mailto:divyaprabha@example.com)** or open an issue on **GitHub**.  
 
-To run the application:
+---
 
-    Start the application:
-    bash
-
-    streamlit run app.py
-
-    Open your web browser and navigate to http://localhost:8501 to access the interactive UI.
-
-Contributing
-
-We welcome contributions! If you'd like to contribute, please follow these steps:
-
-    Fork the repository.
-    Create a new branch:
-    bash
-
-git checkout -b feature/YourFeature
-
-Make your changes and commit them:
-bash
-
-git commit -m "Add your message here"
-
-Push to the branch:
-bash
-
-git push origin feature/YourFeature
-
-Open a pull request.
+Let me know if you need any modifications! 🚀
