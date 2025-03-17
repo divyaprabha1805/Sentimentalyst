@@ -54,11 +54,8 @@ https://sentimentalyst.streamlit.app/
 4. Push to your branch (`git push origin feature-name`).  
 5. Open a Pull Request.  
 
-## **License**  
-This project is licensed under the **MIT License**.  
-
 ## **Contact**  
-For any queries, contact **[Divya Prabha](mailto:divyaprabha@example.com)** or open an issue on **GitHub**.  
+For any queries, contact **[Divya Prabha](mailto:divyabb1805a@example.com)** or open an issue on **GitHub**.  
 
 ---
 
